@@ -1,0 +1,152 @@
+/* Back Button */
+
+  /* Navbar */
+  .navbar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f0f1eb;
+    border-radius: 50px;
+    padding: 10px 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  .logo img {
+    width: au;
+    height: 50px;
+    border-radius: 90px;
+    margin-top: 20px;
+    object-fit: contain;
+  }	
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #4d5fff;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 1.8rem;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  /* Responsive */
+  /* @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background: #fff;
+      border-radius: 10px;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .navbar {
+      left: 0;
+      right: 0;
+      transform: none;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border-radius: 0;
+      top: 0;
+    } */
+
+.back-btn {
+    margin: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4d5fff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    
+  }
+  
+  .back-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .portfolio-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffffff, #d3dac7)
+  }
+  
+  .portfolio-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .portfolio-grid img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .portfolio-grid img:hover {
+    transform: scale(1.1);
+  }
+
+  .footer {
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-grid img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  
